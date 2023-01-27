@@ -1,0 +1,14 @@
+name: magnetize-play-api
+id: 'ari:cloud:compass:7d7a1354-b50b-4f1e-b409-1f3c509aea99:component/910c34fb-0e18-40c8-8568-c31a5cefb046/a538ae83-7efc-4cae-a1c1-333e016d780a'
+description: null
+ownerId: 'ari:cloud:teams::team/df9335ac-cccf-4f3e-9218-eb7c8fea2115'
+fields:
+  tier: 4
+links: []
+relationships:
+  DEPENDS_ON:
+    - 'ari:cloud:compass:7d7a1354-b50b-4f1e-b409-1f3c509aea99:component/910c34fb-0e18-40c8-8568-c31a5cefb046/2087721f-37d6-4ae6-9a7c-fa098072f7ad'
+    - 'ari:cloud:compass:7d7a1354-b50b-4f1e-b409-1f3c509aea99:component/910c34fb-0e18-40c8-8568-c31a5cefb046/59ca78b3-bb19-40fa-b64e-dd24b54dad48'
+
+# Learn more about formatting compass.yml:
+# https://go.atlassian.com/compass-yml-format
