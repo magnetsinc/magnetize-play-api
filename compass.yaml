@@ -5,9 +5,6 @@ ownerId: 'ari:cloud:teams::team/df9335ac-cccf-4f3e-9218-eb7c8fea2115'
 fields:
   tier: 1
 links:
-  - name: null
-    type: REPOSITORY
-    url: 'https://bitbucket.org/magnetsinc/magnetize-play-api'
   - name: 'Contact us here'
     type: CHAT_CHANNEL
     url: 'https://magnetsinc.slack.com/archives/C049E2AUHRC'
