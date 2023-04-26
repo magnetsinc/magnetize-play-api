@@ -1,39 +1,60 @@
 name: magnetize-play-api
-id: 'ari:cloud:compass:7d7a1354-b50b-4f1e-b409-1f3c509aea99:component/910c34fb-0e18-40c8-8568-c31a5cefb046/a538ae83-7efc-4cae-a1c1-333e016d780a'
+id: "ari:cloud:compass:7d7a1354-b50b-4f1e-b409-1f3c509aea99:component/910c34fb-0e18-40c8-8568-c31a5cefb046/a538ae83-7efc-4cae-a1c1-333e016d780a"
 description: All clients use this for playing content.
-ownerId: 'ari:cloud:teams::team/df9335ac-cccf-4f3e-9218-eb7c8fea2115'
+ownerId: "ari:cloud:teams::team/df9335ac-cccf-4f3e-9218-eb7c8fea2115"
 fields:
   tier: 1
+  lifecycle: Active
 links:
-  - name: 'Contact us here'
+  - name: "Contact us here"
     type: CHAT_CHANNEL
-    url: 'https://magnetsinc.slack.com/archives/C049E2AUHRC'
+    url: "https://magnetsinc.slack.com/archives/C049E2AUHRC"
   - name: Jira Project
     type: PROJECT
-    url: 'https://magnetsinc.atlassian.net/browse/MAG'
+    url: "https://magnetsinc.atlassian.net/browse/MAG"
   - name: Architecture overview
     type: DOCUMENT
-    url: 'https://magnetsinc.atlassian.net/wiki/spaces/MAGNETIC/overview'
+    url: "https://magnetsinc.atlassian.net/wiki/spaces/MAGNETIC/overview"
   - name: Runbook
     type: DOCUMENT
-    url: 'https://magnetsinc.atlassian.net/wiki/spaces/MAGNETIC/overview'
+    url: "https://magnetsinc.atlassian.net/wiki/spaces/MAGNETIC/overview"
   - name: API design specs
     type: DOCUMENT
-    url: 'https://magnetsinc.atlassian.net/wiki/spaces/MAGNETIC/overview'
+    url: "https://magnetsinc.atlassian.net/wiki/spaces/MAGNETIC/overview"
   - name: Observability Dashboard
     type: DASHBOARD
-    url: 'https://app.datadoghq.com/dashboard/v43-thf-yrv/dashboard'
+    url: "https://app.datadoghq.com/dashboard/v43-thf-yrv/dashboard"
   - name: On-call schedule
     type: ON_CALL
-    url: 'https://compass-magnets.app.opsgenie.com/settings/schedule/detail/0b2007f0-8133-4ef8-b4e5-541c7e80840f'
+    url: "https://compass-magnets.app.opsgenie.com/settings/schedule/detail/0b2007f0-8133-4ef8-b4e5-541c7e80840f"
   - name: Opsgenie service
     type: OTHER_LINK
-    url: 'https://compass-magnets.app.opsgenie.com/service/22164881-3202-4fcb-8447-05d40e2f5b33'
+    url: "https://compass-magnets.app.opsgenie.com/service/22164881-3202-4fcb-8447-05d40e2f5b33"
 relationships:
   DEPENDS_ON:
-    - 'ari:cloud:compass:7d7a1354-b50b-4f1e-b409-1f3c509aea99:component/910c34fb-0e18-40c8-8568-c31a5cefb046/2087721f-37d6-4ae6-9a7c-fa098072f7ad'
-    - 'ari:cloud:compass:7d7a1354-b50b-4f1e-b409-1f3c509aea99:component/910c34fb-0e18-40c8-8568-c31a5cefb046/59ca78b3-bb19-40fa-b64e-dd24b54dad48'
-
+    - "ari:cloud:compass:7d7a1354-b50b-4f1e-b409-1f3c509aea99:component/910c34fb-0e18-40c8-8568-c31a5cefb046/2087721f-37d6-4ae6-9a7c-fa098072f7ad"
+    - "ari:cloud:compass:7d7a1354-b50b-4f1e-b409-1f3c509aea99:component/910c34fb-0e18-40c8-8568-c31a5cefb046/59ca78b3-bb19-40fa-b64e-dd24b54dad48"
+customFields:
+  - name: "Data encrypted in transit?"
+    type: text
+    value: "yes"
+  - name: "Data encrypted at rest?"
+    type: text
+    value: "n/a"
+  - name: "Last security review"
+    type: text
+    value: "2023-03-28"
+labels:
+  - api
+  - critical
+  - docker
+  - fastapi
+  - magnetize
+  - playback
+  - python3
+  - streaming
+configVersion: 1
+typeId: SERVICE
 # Learn more about formatting compass.yml:
 # https://go.atlassian.com/compass-yml-format
 
